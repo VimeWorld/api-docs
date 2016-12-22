@@ -19,7 +19,13 @@ http://api.vime.world/user/134568/stats
     "SkyWars": {
       "kills": 25,
       "wins": 2,
-      "games": 39
+      "arrowsFired": 0,
+      "currentWinStreak": 0,
+      "games": 39,
+      "winStreak": 0,
+      "blocksPlaced": 0,
+      "blocksBroken": 0,
+      "deaths": 0
     },
     "BedWars": {
       "kills": 63,
