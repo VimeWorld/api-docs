@@ -21,8 +21,8 @@ X-RateLimit-Reset: 1481809432 - Unix TimeStamp, когда лимит будет
 Список методов
 ==============
 ### Игроки /user
-| Метод                                         | Краткое описание                   |
-| --------------------------------------------- | ---------------------------------- |
+| Метод                                         | Краткое описание                          |
+| --------------------------------------------- | ----------------------------------------- |
 |[http://api.vime.world/user/name/{names}](user/by_names.md)          | Информация об игроках по их никам  |
 |[http://api.vime.world/user/{ids}](user/by_ids.md)                   | Информация об игроках по их id     |
 |[http://api.vime.world/user/{id}/friends](user/friends.md)           | Список друзей игрока               |
@@ -30,8 +30,9 @@ X-RateLimit-Reset: 1481809432 - Unix TimeStamp, когда лимит будет
 |[http://api.vime.world/user/{id}/achievements](user/achievements.md) | Выполненные достижения игрока      |
 
 ### Разное /misc
-| Метод                                     | Краткое описание                          |
-| ----------------------------------------- | ----------------------------------------- |
-|[http://api.vime.world/misc/games](misc/games.md)                | Список игр, по которым ведется статистика        |
-|[http://api.vime.world/misc/achievements](misc/achievements.md)  | Список всех возможных достижений                 |
-|[http://api.vime.world/misc/online](misc/online.md)              | Количество игроков онлайн с разделением по играм |
+| Метод                                         | Краткое описание                          |
+| --------------------------------------------- | ----------------------------------------- |
+|[http://api.vime.world/misc/games](misc/games.md)                  | Список игр, по которым ведется статистика        |
+|[http://api.vime.world/misc/achievements](misc/achievements.md)    | Список всех возможных достижений                 |
+|[http://api.vime.world/misc/online](misc/online.md)                | Количество игроков онлайн с разделением по играм |
+|[http://api.vime.world/misc/onlineStreams](misc/online_streams.md) | Список стримов, которые в данный момент идут на сервере |
