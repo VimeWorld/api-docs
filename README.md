@@ -32,5 +32,6 @@ X-RateLimit-Reset: 1481809432 - Unix TimeStamp, когда лимит будет
 ### Разное /misc
 | Метод                                     | Краткое описание                          |
 | ----------------------------------------- | ----------------------------------------- |
-|[http://api.vime.world/misc/games](misc/games.md)                | Список игр, по которым ведется статистика |
-|[http://api.vime.world/misc/achievements](misc/achievements.md)  | Список всех возможных достижений          |
+|[http://api.vime.world/misc/games](misc/games.md)                | Список игр, по которым ведется статистика        |
+|[http://api.vime.world/misc/achievements](misc/achievements.md)  | Список всех возможных достижений                 |
+|[http://api.vime.world/misc/online](misc/online.md)              | Количество игроков онлайн с разделением по играм |
