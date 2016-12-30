@@ -13,8 +13,12 @@
 http://api.vime.world/user/134568/stats
 ```json
 {
-  "userid": 134568,
-  "username": "xtrafrancyz",
+  "user": {
+    "id": 134568,
+    "username": "xtrafrancyz",
+    "rank": "ADMIN",
+    "playedSeconds": 3106732
+  },
   "stats": {
     "SkyWars": {
       "kills": 25,
