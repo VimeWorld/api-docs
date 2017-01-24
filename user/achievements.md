@@ -18,6 +18,7 @@ http://api.vime.world/user/134568/achievements
   "user": {
     "id": 134568,
     "username": "xtrafrancyz",
+    "level": 5,
     "rank": "ADMIN",
     "playedSeconds": 3106732
   },

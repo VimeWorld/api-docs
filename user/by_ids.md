@@ -17,6 +17,7 @@ http://api.vime.world/user/134568
   {
     "id": 134568,
     "username": "xtrafrancyz",
+    "level": 5,
     "rank": "ADMIN",
     "playedSeconds": 3023813
   }
@@ -29,12 +30,14 @@ http://api.vime.world/user/134568,91638
   {
     "id": 134568,
     "username": "xtrafrancyz",
+    "level": 5,
     "rank": "ADMIN",
     "playedSeconds": 3023813
   },
   {
     "id": 91638,
     "username": "nikita",
+    "level": 1,
     "rank": "PLAYER",
     "playedSeconds": 0
   }
