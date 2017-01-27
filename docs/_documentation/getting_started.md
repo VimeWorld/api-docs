@@ -9,10 +9,3 @@ API находится по адресу [http://api.vime.world/](http://api.vim
 
 #### Удобство разработки
 Чтобы было удобнее смотреть ответ сервера, можете установить расширение для Chrome - [JSON Formatter](https://chrome.google.com/webstore/detail/json-formatter/bcjindcccaagfpapjjmafapmmgkkhgoa). Оно будет форматировать JSON в человекочитаемый вид, так что можно будет прямо из браузера тестировать методы и сразу смотреть на результат.
-
-Вы можете посмотреть в заголовки<small>(headers)</small> любого запроса, чтобы узнать текущий статус ограничения:
-```
-X-RateLimit-Limit: 60 - количество возможных запросов в минуту
-X-RateLimit-Remaining: 59 - количество оставшихся запросов
-X-RateLimit-Reset: 1481809432 - Unix TimeStamp, когда лимит будет сброшен, часовой пояс - GMT+0
-```
