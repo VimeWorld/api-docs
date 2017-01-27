@@ -1,0 +1,36 @@
+# ----
+# Site
+
+title: VimeWorld.ru Public API
+description: VimeWorld Public API documentation.
+url: https://vimeworld.github.io
+baseurl: /api-docs
+google_analytics_key:
+permalink: pretty
+
+collections:
+  documentation:
+    title: Документация
+    position: 1
+  api:
+    title: APIs
+    position: 2
+gems:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+exclude:
+  - LICENCE
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: default
+
+types:
+  - get
+  - put
+  - delete
+  - post
