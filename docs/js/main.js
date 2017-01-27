@@ -56,7 +56,7 @@ jQuery(function() {
 
 	var href = $('.sidebar a').first().attr("href");
 
-	if (href !== undefined && href.charAt(0) === "#") {
+	if (href !== undefined && href.indexOf("#") != 0) {
 		setActiveSidebarLink();
 
 		$(window).on("scroll", function(evt) {
@@ -65,11 +65,10 @@ jQuery(function() {
 	}
 
 	function setActiveSidebarLink() {
-			$('.sidebar a').removeClass('active');
-				var $closest = getClosestHeader();
-				$closest.addClass('active');
-				document.title = $closest.text();
-
+		$('.sidebar a').removeClass('active');
+		var $closest = getClosestHeader();
+		$closest.addClass('active');
+		document.title = $closest.text();
 	}
 });
 
@@ -90,8 +89,9 @@ function getClosestHeader() {
 		var $link = $links.eq(i),
 		href = $link.attr("href");
 
-		if (href !== undefined && href.charAt(0) === "#" && href.length > 1) {
-			var $anchor = $(href);
+		var index;
+		if (href !== undefined && (index = href.indexOf("#")) != -1) {
+			var $anchor = $(href.substr(index));
 
 			if ($anchor.length > 0) {
 				var offset = $anchor.offset();

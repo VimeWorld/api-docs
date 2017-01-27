@@ -8,7 +8,7 @@
 					{% assign sorted_docs = collection.docs | sort: "position" %}
 					{% for doc in sorted_docs %}
 						<li>
-							<a href="{{ "/" | absolute_url }}#{{ doc.id | replace: '/', '' | replace: '.', ''}}">
+							<a href="{{ "/" | relative_url }}#{{ doc.id | replace: '/', '' | replace: '.', ''}}">
 								{{ doc.title }}
 								{% if doc.type %}<span class="endpoint {{ doc.type }}"></span>{% endif %}
 							</a>

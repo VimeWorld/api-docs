@@ -4,9 +4,9 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" >
 
-		<link rel="stylesheet" href="{{ "/css/style.css" | absolute_url }}">
+		<link rel="stylesheet" href="{{ "/css/style.css" | relative_url }}">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-		<script src="{{ "/js/main.js" | absolute_url }}"></script>
+		<script src="{{ "/js/main.js" | relative_url }}"></script>
 		{% seo %}
 
 		{% if jekyll.environment == 'production' %}
@@ -23,11 +23,11 @@
 	<body>
 		<header>
 			<h1>
-				<a href="."><img src="{{ "/images/logo.png" | absolute_url }}" alt="{{ site.title }} logo"></a>
-				<button type="button" class="open-nav" id="open-nav"><img src="{{ "/images/menu.svg" | absolute_url }}"></button>
+				<a href="."><img src="{{ "/images/logo.png" | relative_url }}" alt="{{ site.title }} logo"></a>
+				<button type="button" class="open-nav" id="open-nav"><img src="{{ "/images/menu.svg" | relative_url }}"></button>
 			</h1>
 
-			<form action="{{ "/search/" | absolute_url }}" method="get">
+			<form action="{{ "/search/" | relative_url }}" method="get">
 				<input type="text" name="q" id="search-input" placeholder="Search">
 				<input type="submit" value="Search" style="display: none;">
 			</form>
