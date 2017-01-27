@@ -14,8 +14,8 @@ http://api.vime.world/user/134568?token=MY_TOKEN
 
 Вы можете посмотреть в заголовки<small>(headers)</small> любого запроса, чтобы узнать текущий статус ограничения:
 
-```
-X-RateLimit-Limit: 60 - количество возможных запросов в минуту
-X-RateLimit-Remaining: 59 - количество оставшихся запросов
-X-RateLimit-Reset: 1481809432 - Unix TimeStamp, когда лимит будет сброшен, часовой пояс - GMT+0
+``` d
+X-RateLimit-Limit: 60 // количество возможных запросов в минуту
+X-RateLimit-Remaining: 59 // количество оставшихся запросов
+X-RateLimit-Reset: 1481809432 // Unix TimeStamp, когда лимит будет сброшен, часовой пояс - GMT+0
 ```
