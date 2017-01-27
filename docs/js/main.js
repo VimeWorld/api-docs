@@ -55,8 +55,7 @@ jQuery(function() {
 	}
 
 	var href = $('.sidebar a').first().attr("href");
-
-	if (href !== undefined && href.indexOf("#") != 0) {
+	if ($('#index-page').length && href !== undefined && href.indexOf("#") != -1) {
 		setActiveSidebarLink();
 
 		$(window).on("scroll", function(evt) {
