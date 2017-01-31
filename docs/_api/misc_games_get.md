@@ -1,6 +1,6 @@
 ---
 title: /misc/games
-position: 2.1
+position: 3.1
 type: get
 description: Список игр, по которым ведется статистика
 right_code: |

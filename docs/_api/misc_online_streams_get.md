@@ -1,6 +1,6 @@
 ---
 title: /misc/onlineStreams
-position: 2.4
+position: 3.4
 type: get
 description: Список стримов, которые в данный момент идут на сервере
 right_code: |

@@ -1,6 +1,6 @@
 ---
 title: /misc/online
-position: 2.3
+position: 3.3
 type: get
 description: Количество игроков онлайн
 right_code: |
