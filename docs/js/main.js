@@ -21,7 +21,7 @@ jQuery(function() {
 			$this1 = $(this);
 			var url = $this1.attr('url');
 			if (url != undefined)
-				$this1.prepend('<a class="api-url" href="'+API_DOMAIN+url+'" target="blank"><img src="images/external.svg" width="16" height="16"> '+API_DOMAIN+url+'</a>');
+				$this1.prepend('<a class="api-url" href="'+API_DOMAIN+url+'" target="_blank"><img src="images/external.svg" width="16" height="16"> '+API_DOMAIN+url+'</a>');
 		});
 
 		listLanguages($all, $languages);
