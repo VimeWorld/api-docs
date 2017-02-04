@@ -9,12 +9,15 @@ google_analytics_key:
 permalink: pretty
 
 collections:
-  documentation:
-    title: Документация
+  common:
+    title: Общее
     position: 1
-  api:
-    title: APIs
+  info:
+    title: Данные
     position: 2
+  api:
+    title: Методы
+    position: 3
 gems:
   - jekyll-sitemap
   - jekyll-seo-tag
