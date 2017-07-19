@@ -1,49 +1,31 @@
 ---
-title: /online/streams
-position: 3.2
+title: /online/staff
+position: 3.3
 type: get
-description: Список стримов, которые в данный момент идут на сервере
+description: Список модераторов онлайн
 right_code: |
   ~~~ json
   [
     {
-      "title": "Стрим на VimeWorld.ru",
-      "owner": "iAmTopStreamer",
-      "viewers": 95,
-      "url": "https://youtu.be/dQw4w9WgXcQ",
-      "duration": 6435,
-      "platform": "YouTube"
+      "id": 281057,
+      "username": "Edeeeen",
+      "level": 30,
+      "rank": "MODER",
+      "playedSeconds": 2067480
     },
     {
-      "title": "Играю с подписчиками на VimeWorld",
-      "owner": "Best_YT",
-      "viewers": 500,
-      "url": "https://youtu.be/dQw4w9WgXcQ",
-      "duration": 4686,
-      "platform": "YouTube"
+      "id": 334699,
+      "username": "RaptorGame",
+      "level": 23,
+      "rank": "MODER",
+      "playedSeconds": 1619050
     }
   ]
   ~~~
-  {: title="Пример запроса" url="/online/streams" }
+  {: title="Пример запроса" url="/online/staff" }
 ---
 
-Возвращает список активных стримов на сервере. Этот список идентичен тому, что показывается на сервере MiniGames в меню по команде `/streams`.
+Возвращает список модераторов, которые в данный момент находятся на сервере.
 
 Информация обновляется раз в 10 сек.
 {: .info }
-
-<h6>Ответ</h6>
-title
-: Заголовок стрима. Может содержать символы юникода.
-
-owner
-: Ник ютубера, который добавил (ведет) стрим.
-
-viewers
-: Количество зрителей стрима.
-
-duration
-: Длительность стрима в секундах (время с начала стрима).
-
-platform
-: Платформа, на которой идет стрим. Поддерживается [YouTube](https://youtube.com), [ВКонтакте](https://vk.com), [Twitch](https://twitch.tv), [GoodGame](https://goodgame.ru).
