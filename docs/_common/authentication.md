@@ -3,7 +3,7 @@ title: Авторизация
 position: 2
 right_code: |
   ~~~ php?start_inline=true
-  $curl = curl_init("http://api.vime.world/misc/online");
+  $curl = curl_init("http://api.vime.world/online");
   curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 4);
   curl_setopt($curl, CURLOPT_HTTPHEADER, array(
     'Access-Token: MY_TOKEN'
@@ -17,12 +17,11 @@ right_code: |
   ~~~
   {: title="PHP cURL" }
 ---
----
 
 Для получения токена необходимо зайти на сервер MiniGames и написать команду `/api`. Вам будет выдана ссылка на страницу, где будет написан ваш токен и информация о нем.
 Чтобы выполнять запросы с токеном, необходимо добавить его в параметры запроса, например:
 ```
-http://api.vime.world/misc/online?token=MY_TOKEN
+http://api.vime.world/online?token=MY_TOKEN
 ```
 Либо добавить в запрос заголовок Access-Token:
 ```
