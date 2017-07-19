@@ -1,6 +1,6 @@
 ---
-title: /misc/online
-position: 3.3
+title: /online
+position: 3.1
 type: get
 description: Количество игроков онлайн
 right_code: |
@@ -22,12 +22,15 @@ right_code: |
     }
   }
   ~~~
-  {: title="Пример запроса" url="/misc/online" }
+  {: title="Пример запроса" url="/online" }
 ---
 
 Возвращает количество игроков онлайн. В сумме и по каждой игре отдельно.
 
 Список всех полных названий игр можно посмотреть с помощью метода [misc/games](#apimisc_games_get).
+
+Информация обновляется раз в 10 сек.
+{: .info }
 
 <h6>Ответ</h6>
 total

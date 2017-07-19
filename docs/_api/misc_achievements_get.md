@@ -1,6 +1,6 @@
 ---
 title: /misc/achievements
-position: 3.2
+position: 4.2
 type: get
 description: Список всех возможных достижений
 right_code: |

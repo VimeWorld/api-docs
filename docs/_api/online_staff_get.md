@@ -1,6 +1,6 @@
 ---
-title: /misc/onlineStreams
-position: 3.4
+title: /online/streams
+position: 3.2
 type: get
 description: Список стримов, которые в данный момент идут на сервере
 right_code: |
@@ -24,7 +24,7 @@ right_code: |
     }
   ]
   ~~~
-  {: title="Пример запроса" url="/misc/onlineStreams" }
+  {: title="Пример запроса" url="/online/streams" }
 ---
 
 Возвращает список активных стримов на сервере. Этот список идентичен тому, что показывается на сервере MiniGames в меню по команде `/streams`.
@@ -46,4 +46,4 @@ duration
 : Длительность стрима в секундах (время с начала стрима).
 
 platform
-: Платформа, на которой идет стрим. Поддерживается [YouTube](https://youtube.com), [Twitch](https://twitch.tv), [GoodGame](https://goodgame.ru), [ВКонтакте](https://vk.com).
+: Платформа, на которой идет стрим. Поддерживается [YouTube](https://youtube.com), [ВКонтакте](https://vk.com), [Twitch](https://twitch.tv), [GoodGame](https://goodgame.ru).
