@@ -11,14 +11,22 @@ right_code: |
       "username": "Edeeeen",
       "level": 30,
       "rank": "MODER",
-      "playedSeconds": 2067480
+      "online": {
+        "value": true,
+        "message": "Играет в SkyWars Solo",
+        "game": "SW"
+      }
     },
     {
       "id": 334699,
       "username": "RaptorGame",
       "level": 23,
       "rank": "MODER",
-      "playedSeconds": 1619050
+      "online": {
+        "value": true,
+        "message": "Находится в Лобби",
+        "game": "LOBBY"
+      }
     }
   ]
   ~~~
