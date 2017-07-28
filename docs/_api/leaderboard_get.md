@@ -107,6 +107,44 @@ right_code: |
   }
   ~~~
   {: title="BedWars по убийствам" url="/leaderboard/get/bw/kills" }
+
+  ~~~ json
+  {
+    "leaderboard": {
+      "type": "sw",
+      "sort": "kills",
+      "size": 10
+    },
+    "records": [
+      {
+        "user": {
+          "id": 186517,
+          "username": "M1halych",
+          "level": 8,
+          "rank": "PLAYER"
+        },
+        "wins": 6045,
+        "games": 10302,
+        "kills": 30099,
+        "deaths": 379
+      },
+      {
+        "user": {
+          "id": 211701,
+          "username": "EvilMaster",
+          "level": 14,
+          "rank": "WARDEN"
+        },
+        "wins": 5853,
+        "games": 9365,
+        "kills": 29179,
+        "deaths": 305
+      },
+      ...
+    ]
+  }
+  ~~~
+  {: title="SkyWars 10 записей" url="/leaderboard/get/sw/kills?size=10" }
 ---
 
 <h6>Параметры</h6>
@@ -115,6 +153,10 @@ type
 
 sort
 : Вариант таблицы рекордов (необязательно). 
+
+<h6>Дополнительные параметры</h6>
+size
+: Количество записей, которые вернет сервер. По умолчанию - 100, максимально - 1000.
 
 Возвращает таблицу рекордов.
 
