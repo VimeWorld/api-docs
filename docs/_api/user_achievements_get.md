@@ -1,6 +1,6 @@
 ---
 title: /user/:id/achievements
-position: 1.5
+position: 1.6
 type: get
 description: Получает достижения игрока
 right_code: |

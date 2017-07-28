@@ -1,6 +1,6 @@
 ---
 title: /user/:id/stats
-position: 1.4
+position: 1.5
 type: get
 description: Получает статистику игрока
 right_code: |
