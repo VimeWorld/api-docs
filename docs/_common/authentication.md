@@ -36,5 +36,5 @@ Access-Token: MY_TOKEN
 ``` d
 X-RateLimit-Limit: 60 // количество возможных запросов в минуту
 X-RateLimit-Remaining: 59 // количество оставшихся запросов
-X-RateLimit-Reset: 1481809432 // Unix TimeStamp, когда лимит будет сброшен, часовой пояс - GMT+0
+X-RateLimit-Reset-After: 16 // количество секунд, через которое лимит будет сброшен
 ```
