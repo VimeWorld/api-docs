@@ -10,6 +10,7 @@ right_code: |
       "id": 281057,
       "username": "Edeeeen",
       "level": 30,
+      "levelPercentage": 0.342,
       "rank": "MODER",
       "online": {
         "value": true,
@@ -21,6 +22,7 @@ right_code: |
       "id": 334699,
       "username": "RaptorGame",
       "level": 23,
+      "levelPercentage": 0.510,
       "rank": "MODER",
       "online": {
         "value": true,

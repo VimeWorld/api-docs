@@ -10,6 +10,7 @@ right_code: |
       "id": 134568,
       "username": "xtrafrancyz",
       "level": 5,
+      "levelPercentage": 0.894,
       "rank": "ADMIN",
       "playedSeconds": 3023813
     }
@@ -23,6 +24,7 @@ right_code: |
       "id": 134568,
       "username": "xtrafrancyz",
       "level": 5,
+      "levelPercentage": 0.894,
       "rank": "ADMIN",
       "playedSeconds": 3023813
     },
@@ -30,6 +32,7 @@ right_code: |
       "id": 91638,
       "username": "nikita",
       "level": 1,
+      "levelPercentage": 0,
       "rank": "PLAYER",
       "playedSeconds": 0
     }

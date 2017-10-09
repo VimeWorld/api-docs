@@ -10,6 +10,7 @@ right_code: |
       "id": 134568,
       "username": "xtrafrancyz",
       "level": 5,
+      "levelPercentage": 0.894,
       "rank": "ADMIN",
       "playedSeconds": 3106732
     },
@@ -18,6 +19,7 @@ right_code: |
         "id": 105889,
         "username": "rsboe",
         "level": 8,
+        "levelPercentage": 0.856,
         "rank": "BUILDER",
         "playedSeconds": 5508358
       },
@@ -25,6 +27,7 @@ right_code: |
         "id": 94245,
         "username": "Okssi",
         "level": 10,
+        "levelPercentage": 0.168,
         "rank": "CHIEF",
         "playedSeconds": 2596550
       },
@@ -32,6 +35,7 @@ right_code: |
         "id": 113654,
         "username": "SmaIK",
         "level": 3,
+        "levelPercentage": 0.278,
         "rank": "ADMIN",
         "playedSeconds": 1300227
       }

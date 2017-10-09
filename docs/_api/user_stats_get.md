@@ -10,6 +10,7 @@ right_code: |
       "id": 134568,
       "username": "xtrafrancyz",
       "level": 5,
+      "levelPercentage": 0.894,
       "rank": "ADMIN",
       "playedSeconds": 3106732
     },

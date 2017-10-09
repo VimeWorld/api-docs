@@ -16,12 +16,14 @@ right_code: |
         "id": 36754,
         "username": "ender_HAYIIIA",
         "level": 22,
+        "levelPercentage": 0.421,
         "rank": "IMMORTAL"
       },
       {
         "id": 200525,
         "username": "TeLKa1337",
         "level": 21,
+        "levelPercentage": 0.128,
         "rank": "IMMORTAL"
       },
       ...
@@ -43,6 +45,7 @@ right_code: |
           "id": 186517,
           "username": "M1halych",
           "level": 8,
+          "levelPercentage": 0.728,
           "rank": "PLAYER"
         },
         "wins": 6045,
@@ -55,6 +58,7 @@ right_code: |
           "id": 211701,
           "username": "EvilMaster",
           "level": 14,
+          "levelPercentage": 0.943,
           "rank": "WARDEN"
         },
         "wins": 5853,
@@ -81,6 +85,7 @@ right_code: |
           "id": 179278,
           "username": "Darksiders_azaza",
           "level": 9,
+          "levelPercentage": 0.321,
           "rank": "PLAYER"
         },
         "wins": 1665,
@@ -94,6 +99,7 @@ right_code: |
           "id": 140324,
           "username": "_Cuuuba_",
           "level": 1,
+          "levelPercentage": 0.233,
           "rank": "HOLY"
         },
         "wins": 1354,
@@ -121,6 +127,7 @@ right_code: |
           "id": 186517,
           "username": "M1halych",
           "level": 8,
+          "levelPercentage": 0.342,
           "rank": "PLAYER"
         },
         "wins": 6045,
@@ -133,6 +140,7 @@ right_code: |
           "id": 211701,
           "username": "EvilMaster",
           "level": 14,
+          "levelPercentage": 0.042,
           "rank": "WARDEN"
         },
         "wins": 5853,
@@ -152,7 +160,7 @@ type
 : Тип таблицы рекордов. Список таблиц возвращает метод [leaderboard/list](#apileaderboard_list_get).
 
 sort
-: Вариант таблицы рекордов (необязательно). 
+: Вариант таблицы рекордов (необязательно).
 
 <h6>Дополнительные параметры</h6>
 size
