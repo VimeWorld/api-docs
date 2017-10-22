@@ -12,7 +12,13 @@ right_code: |
       "level": 5,
       "levelPercentage": 0.894,
       "rank": "ADMIN",
-      "playedSeconds": 3023813
+      "playedSeconds": 3023813,
+      "guild": {
+        "id": 401,
+        "name": "Okssi наш друг",
+        "tag": null,
+        "color": "&f"
+      }
     }
   ]
   ~~~
@@ -26,7 +32,13 @@ right_code: |
       "level": 5,
       "levelPercentage": 0.894,
       "rank": "ADMIN",
-      "playedSeconds": 3023813
+      "playedSeconds": 3023813,
+      "guild": {
+        "id": 401,
+        "name": "Okssi наш друг",
+        "tag": null,
+        "color": "&f"
+      }
     },
     {
       "id": 91638,
@@ -34,7 +46,8 @@ right_code: |
       "level": 1,
       "levelPercentage": 0,
       "rank": "PLAYER",
-      "playedSeconds": 0
+      "playedSeconds": 0,
+      "guild": null
     }
   ]
   ~~~

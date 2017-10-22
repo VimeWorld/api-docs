@@ -1,6 +1,6 @@
 ---
 title: /online/streams
-position: 3.2
+position: 4.2
 type: get
 description: Список стримов, которые в данный момент идут на сервере
 right_code: |

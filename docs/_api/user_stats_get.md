@@ -12,7 +12,8 @@ right_code: |
       "level": 5,
       "levelPercentage": 0.894,
       "rank": "ADMIN",
-      "playedSeconds": 3106732
+      "playedSeconds": 3106732,
+      "guild": null
     },
     "stats": {
       "SkyWars": {

@@ -1,17 +1,24 @@
 ---
 title: /online/staff
-position: 3.3
+position: 4.3
 type: get
 description: Список модераторов онлайн
 right_code: |
   ~~~ json
   [
     {
-      "id": 281057,
-      "username": "Edeeeen",
-      "level": 30,
-      "levelPercentage": 0.342,
+      "id": 64165,
+      "username": "kuclopoguk",
+      "level": 37,
+      "levelPercentage": 0.37101,
       "rank": "MODER",
+      "playedSeconds": 5950354,
+      "guild": {
+        "id": 124,
+        "name": "TheRebellAlliance",
+        "tag": null,
+        "color": "&f"
+      },
       "online": {
         "value": true,
         "message": "Играет в SkyWars Solo",
@@ -19,11 +26,18 @@ right_code: |
       }
     },
     {
-      "id": 334699,
-      "username": "RaptorGame",
-      "level": 23,
-      "levelPercentage": 0.510,
-      "rank": "MODER",
+      "id": 1249617,
+      "username": "LoganFrench",
+      "level": 37,
+      "levelPercentage": 0.17737,
+      "rank": "WARDEN",
+      "playedSeconds": 2705011,
+      "guild": {
+        "id": 104,
+        "name": "VimeTop",
+        "tag": null,
+        "color": "&f"
+      },
       "online": {
         "value": true,
         "message": "Находится в Лобби",

@@ -1,6 +1,6 @@
 ---
 title: /online
-position: 3.1
+position: 4.1
 type: get
 description: Количество игроков онлайн
 right_code: |

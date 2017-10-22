@@ -1,6 +1,6 @@
 ---
 title: /leaderboard/list
-position: 2.1
+position: 3.1
 type: get
 description: Список таблиц рекордов
 right_code: |

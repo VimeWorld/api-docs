@@ -1,6 +1,6 @@
 ---
 title: /leaderboard/get/:type[/:sort]
-position: 2.2
+position: 3.2
 type: get
 description: Возвращает таблицу рекордов
 right_code: |
@@ -13,18 +13,27 @@ right_code: |
     },
     "records": [
       {
-        "id": 36754,
-        "username": "ender_HAYIIIA",
-        "level": 22,
-        "levelPercentage": 0.421,
-        "rank": "IMMORTAL"
+        "id": 165070,
+        "username": "_SmILeGames_",
+        "level": 73,
+        "levelPercentage": 0.25811,
+        "rank": "IMMORTAL",
+        "playedSeconds": 9501091,
+        "guild": {
+          "id": 87,
+          "name": "E.S.C",
+          "tag": null,
+          "color": "&f"
+        }
       },
       {
-        "id": 200525,
-        "username": "TeLKa1337",
-        "level": 21,
-        "levelPercentage": 0.128,
-        "rank": "IMMORTAL"
+        "id": 246843,
+        "username": "_KorovkaGOD_",
+        "level": 72,
+        "levelPercentage": 0.33993,
+        "rank": "IMMORTAL",
+        "playedSeconds": 9199587,
+        "guild": null
       },
       ...
     ]
@@ -44,27 +53,41 @@ right_code: |
         "user": {
           "id": 186517,
           "username": "M1halych",
-          "level": 8,
-          "levelPercentage": 0.728,
-          "rank": "PLAYER"
+          "level": 40,
+          "levelPercentage": 0.71594,
+          "rank": "HOLY",
+          "playedSeconds": 7897811,
+          "guild": {
+            "id": 107,
+            "name": "Revenge",
+            "tag": null,
+            "color": "&f"
+          }
         },
-        "wins": 6045,
-        "games": 10302,
-        "kills": 30099,
-        "deaths": 379
+        "wins": 10186,
+        "games": 19068,
+        "kills": 51951,
+        "deaths": 5004
       },
       {
         "user": {
           "id": 211701,
           "username": "EvilMaster",
-          "level": 14,
-          "levelPercentage": 0.943,
-          "rank": "WARDEN"
+          "level": 64,
+          "levelPercentage": 0.26511,
+          "rank": "WARDEN",
+          "playedSeconds": 9308811,
+          "guild": {
+            "id": 1,
+            "name": "Fantastic Five",
+            "tag": null,
+            "color": "&f"
+          }
         },
-        "wins": 5853,
-        "games": 9365,
-        "kills": 29179,
-        "deaths": 305
+        "wins": 9758,
+        "games": 15889,
+        "kills": 44634,
+        "deaths": 2924
       },
       ...
     ]
@@ -86,7 +109,8 @@ right_code: |
           "username": "Darksiders_azaza",
           "level": 9,
           "levelPercentage": 0.321,
-          "rank": "PLAYER"
+          "rank": "PLAYER",
+          "guild": null
         },
         "wins": 1665,
         "games": 2243,
@@ -100,7 +124,8 @@ right_code: |
           "username": "_Cuuuba_",
           "level": 1,
           "levelPercentage": 0.233,
-          "rank": "HOLY"
+          "rank": "HOLY",
+          "guild": null
         },
         "wins": 1354,
         "games": 1721,
@@ -128,7 +153,8 @@ right_code: |
           "username": "M1halych",
           "level": 8,
           "levelPercentage": 0.342,
-          "rank": "PLAYER"
+          "rank": "PLAYER",
+          "guild": null
         },
         "wins": 6045,
         "games": 10302,
@@ -141,7 +167,8 @@ right_code: |
           "username": "EvilMaster",
           "level": 14,
           "levelPercentage": 0.042,
-          "rank": "WARDEN"
+          "rank": "WARDEN",
+          "guild": null
         },
         "wins": 5853,
         "games": 9365,

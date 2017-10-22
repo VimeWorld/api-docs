@@ -12,7 +12,8 @@ right_code: |
       "level": 5,
       "levelPercentage": 0.894,
       "rank": "ADMIN",
-      "playedSeconds": 3106732
+      "playedSeconds": 3106732,
+      "guild": null
     },
     "achievements": [
       {
@@ -55,4 +56,4 @@ id
 : id достижения из списка всех достижений.
 
 time
-: Метка времени Unix TimeStamp, когда игрок получил достижение.
+: Метка времени Unix Timestamp, когда игрок получил достижение.

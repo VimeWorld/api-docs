@@ -12,7 +12,8 @@ right_code: |
       "level": 5,
       "levelPercentage": 0.894,
       "rank": "ADMIN",
-      "playedSeconds": 3106732
+      "playedSeconds": 3106732,
+      "guild": null
     },
     "online": {
       "value": false,
@@ -22,7 +23,7 @@ right_code: |
   }
   ~~~
   {: title="Игрок онлайн" url="/user/134568/session" }
-  
+
   ~~~ json
   {
     "user": {
@@ -31,7 +32,8 @@ right_code: |
       "level": 5,
       "levelPercentage": 0.894,
       "rank": "ADMIN",
-      "playedSeconds": 3106732
+      "playedSeconds": 3106732,
+      "guild": null
     },
     "online": {
       "value": false,

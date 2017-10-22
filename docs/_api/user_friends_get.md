@@ -12,7 +12,8 @@ right_code: |
       "level": 5,
       "levelPercentage": 0.894,
       "rank": "ADMIN",
-      "playedSeconds": 3106732
+      "playedSeconds": 3106732,
+      "guild": null
     },
     "friends": [
       {
@@ -21,7 +22,13 @@ right_code: |
         "level": 8,
         "levelPercentage": 0.856,
         "rank": "BUILDER",
-        "playedSeconds": 5508358
+        "playedSeconds": 5508358,
+        "guild": {
+          "id": 1,
+          "name": "Fantastic Five",
+          "tag": null,
+          "color": "&f"
+        }
       },
       {
         "id": 94245,
@@ -29,7 +36,8 @@ right_code: |
         "level": 10,
         "levelPercentage": 0.168,
         "rank": "CHIEF",
-        "playedSeconds": 2596550
+        "playedSeconds": 2596550,
+        "guild": null
       },
       {
         "id": 113654,
@@ -37,7 +45,8 @@ right_code: |
         "level": 3,
         "levelPercentage": 0.278,
         "rank": "ADMIN",
-        "playedSeconds": 1300227
+        "playedSeconds": 1300227,
+        "guild": null
       }
     ]
   }
