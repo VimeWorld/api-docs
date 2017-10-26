@@ -39,7 +39,7 @@ right_code: |
     ]
   }
   ~~~
-  {: title="По уровню" url="/leaderboard/get/level" }
+  {: title="По уровню" url="/leaderboard/get/user/level" }
 
   ~~~ json
   {

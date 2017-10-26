@@ -22,9 +22,12 @@ right_code: |
       ]
     },
     {
-      "type": "level",
-      "description": "Top players by level",
-      "sort": []
+      "type": "user",
+      "description": "Top players",
+      "sort": [
+        "level",
+        "online"
+      ]
     },
     ...
   ]
