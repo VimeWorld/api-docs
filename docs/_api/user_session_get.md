@@ -16,7 +16,7 @@ right_code: |
       "guild": null
     },
     "online": {
-      "value": false,
+      "value": true,
       "message": "Находится в Лобби",
       "game": "LOBBY"
     }
