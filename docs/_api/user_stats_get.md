@@ -16,24 +16,42 @@ right_code: |
       "guild": null
     },
     "stats": {
-      "SkyWars": {
-        "kills": 25,
-        "wins": 2,
-        "arrowsFired": 0,
-        "currentWinStreak": 0,
-        "games": 39,
-        "winStreak": 0,
-        "blocksPlaced": 0,
-        "blocksBroken": 0,
-        "deaths": 0
+      "BW": {
+        "global": {
+          "kills": 76,
+          "deaths": 118,
+          "games": 17,
+          "wins": 2,
+          "bedBreaked": 5
+        },
+        "season": {
+          "monthly": {
+            "kills": 0,
+            "deaths": 0,
+            "games": 0,
+            "wins": 0,
+            "bedBreaked": 0
+          }
+        }
       },
-      "BedWars": {
-        "kills": 63,
-        "wins": 2,
-        "games": 10,
-        "deaths": 97,
-        "bedBreaked": 3
-      }
+      "MW": {
+        "global": {
+          "games": 27,
+          "wins": 18,
+          "mobsKilled": 1530,
+          "mobsSended": 3800,
+          "maxIncome": 571494
+        },
+        "season": {
+          "monthly": {
+            "games": 0,
+            "wins": 0,
+            "mobsKilled": 0,
+            "mobsSended": 0
+          }
+        }
+      },
+      ...
     }
   }
   ~~~
@@ -45,3 +63,10 @@ id
 : id игрока.
 
 Возвращает статистику всех игр, в которые играл запрашиваемый игрок. Список игр и их возможные значения статистики можно узнать с помощью метода [misc/games](#apimisc_games_get).
+
+<h6>Ответ</h6>
+stats.GAME.global
+: Статистика по игре за все время.
+
+stats.GAME.season
+: Статистика по игре за определенный сезон.
