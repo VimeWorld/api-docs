@@ -3,7 +3,7 @@ title: Авторизация
 position: 2
 right_code: |
   ~~~ php?start_inline=true
-  $curl = curl_init("http://api.vime.world/online");
+  $curl = curl_init("https://api.vime.world/online");
   curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 4);
   curl_setopt($curl, CURLOPT_HTTPHEADER, array(
     'Access-Token: MY_TOKEN'
@@ -24,12 +24,12 @@ right_code: |
 http://api.vime.world/online?token=MY_TOKEN
 ```
 Либо добавить в запрос заголовок Access-Token:
-```
+```d
 Access-Token: MY_TOKEN
 ```
 
 #### Лимит на количество запросов
-При использовании API без токена авторизации, вы можете делать не более `60` запросов в минуту с одного IP. С использованием токена лимит запросов в минуту увеличивается до `300`. Если вам все равно этого мало, можете написать сюда [https://vk.com/xtrafrancyz](https://vk.com/xtrafrancyz) и договориться о персональном лимите.
+При использовании API без токена авторизации, вы можете делать не более `60` запросов в минуту с одного IP. С использованием токена лимит запросов в минуту увеличивается до `300`. Если вам все равно этого мало, можете написать на почту [me@xtrafrancyz.net](mailto:me@xtrafrancyz.net) и договориться о персональном лимите.
 
 Вы можете посмотреть в заголовки<small>(headers)</small> любого запроса, чтобы узнать текущий статус ограничения:
 
