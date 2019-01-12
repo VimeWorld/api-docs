@@ -1,6 +1,6 @@
 ---
 title: /guild/get
-position: 2.1
+position: 2.2
 type: get
 description: Получает информацию о гильдии
 right_code: |
