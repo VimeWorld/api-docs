@@ -15,6 +15,10 @@ html {
 	height: 100vh;
 }
 
+img {
+	max-width: 100%;
+}
+
 @media (max-width: $mobile-break) {
 	.sidebar, header > form {
 		display: none;
@@ -488,6 +492,10 @@ header {
 		right: auto;
 		bottom: auto;
 
+		.copyright {
+			display: block;
+		}
+
 		.open-nav {
 			display: none;
 		}
@@ -550,4 +558,5 @@ header {
 	text-align: center;
 	font-size: .6em;
 	margin: 30px 0 0 0;
+	display: none;
 }

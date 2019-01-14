@@ -18,7 +18,7 @@ collections:
   api:
     title: Методы
     position: 3
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
