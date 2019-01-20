@@ -1,6 +1,6 @@
 ---
 title: /misc/token/:token
-position: 5.3
+position: 5.4
 type: get
 description: Возвращает информацию о токене
 right_code: |
@@ -28,7 +28,7 @@ right_code: |
   }
   ~~~
   {: title="Валидный токен" url="/misc/token/xxx" }
-  
+
   ~~~ json
   {
     "token": "notExists",
