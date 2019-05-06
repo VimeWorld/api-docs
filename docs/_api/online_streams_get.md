@@ -8,19 +8,39 @@ right_code: |
   [
     {
       "title": "Стрим на VimeWorld.ru",
-      "owner": "iAmTopStreamer",
+      "owner": "Okssi",
       "viewers": 95,
       "url": "https://youtu.be/dQw4w9WgXcQ",
       "duration": 6435,
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "user": {
+        "id": 94245,
+        "username": "Okssi",
+        "level": 32,
+        "levelPercentage": 0.894,
+        "rank": "CHIEF",
+        "playedSeconds": 5366612,
+        "lastSeen": 1557003946,
+        "guild": null
+      }
     },
     {
       "title": "Играю с подписчиками на VimeWorld",
-      "owner": "Best_YT",
+      "owner": "xtrafrancyz",
       "viewers": 500,
       "url": "https://youtu.be/dQw4w9WgXcQ",
       "duration": 4686,
-      "platform": "YouTube"
+      "platform": "YouTube",
+      "user": {
+        "id": 134568,
+        "username": "xtrafrancyz",
+        "level": 5,
+        "levelPercentage": 0.894,
+        "rank": "ADMIN",
+        "playedSeconds": 3106732,
+        "lastSeen": -1,
+        "guild": null
+      }
     }
   ]
   ~~~
