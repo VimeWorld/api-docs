@@ -1,6 +1,6 @@
 ---
 title: /user/session/:ids
-position: 1.7
+position: 1.8
 type: get
 description: Массовое получение статуса
 right_code: |
