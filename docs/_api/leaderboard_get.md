@@ -9,7 +9,9 @@ right_code: |
     "leaderboard": {
       "type": "level",
       "sort": null,
-      "size": 100
+      "offset": 0,
+      "size": 100,
+      "max_size": 1000
     },
     "records": [
       {
@@ -46,7 +48,9 @@ right_code: |
     "leaderboard": {
       "type": "sw",
       "sort": "wins",
-      "size": 100
+      "offset": 0,
+      "size": 100,
+      "max_size": 1000
     },
     "records": [
       {
@@ -98,53 +102,11 @@ right_code: |
   ~~~ json
   {
     "leaderboard": {
-      "type": "bw",
-      "sort": "kills",
-      "size": 100
-    },
-    "records": [
-      {
-        "user": {
-          "id": 179278,
-          "username": "Darksiders_azaza",
-          "level": 9,
-          "levelPercentage": 0.321,
-          "rank": "PLAYER",
-          "guild": null
-        },
-        "wins": 1665,
-        "games": 2243,
-        "kills": 30682,
-        "deaths": 9278,
-        "bedBreaked": 2898
-      },
-      {
-        "user": {
-          "id": 140324,
-          "username": "_Cuuuba_",
-          "level": 1,
-          "levelPercentage": 0.233,
-          "rank": "HOLY",
-          "guild": null
-        },
-        "wins": 1354,
-        "games": 1721,
-        "kills": 23686,
-        "deaths": 5822,
-        "bedBreaked": 1974
-      },
-      ...
-    ]
-  }
-  ~~~
-  {: title="BedWars по убийствам" url="/leaderboard/get/bw/kills" }
-
-  ~~~ json
-  {
-    "leaderboard": {
       "type": "sw",
       "sort": "kills",
-      "size": 10
+      "offset": 990,
+      "size": 10,
+      "max_size": 1000
     },
     "records": [
       {
@@ -179,7 +141,7 @@ right_code: |
     ]
   }
   ~~~
-  {: title="SkyWars 10 записей" url="/leaderboard/get/sw/kills?size=10" }
+  {: title="SkyWars последние 10 записей" url="/leaderboard/get/sw/kills?size=10&offset=990" }
 ---
 
 <h6>Параметры</h6>
@@ -193,7 +155,8 @@ sort
 size
 : Количество записей, которые вернет сервер. По умолчанию - 100, максимально - 1000.
 
-Возвращает таблицу рекордов.
+offset
+: Количество пропущенных от начала записей. По умолчанию - 0.
 
 Информация обновляется раз в час.
 {: .info }
