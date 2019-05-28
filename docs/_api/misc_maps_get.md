@@ -1,6 +1,6 @@
 ---
 title: /misc/maps
-position: 5.2
+position: 6.2
 type: get
 description: Список карт, сгруппированный по играм
 right_code: |

@@ -1,6 +1,6 @@
 ---
 title: /misc/token/:token
-position: 5.4
+position: 6.4
 type: get
 description: Возвращает информацию о токене
 right_code: |
