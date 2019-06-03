@@ -8,43 +8,37 @@ right_code: |
   {
     "version": 1,
     "game": "DUELS",
-    "server": "DUELS_2",
-    "start": 1559035052,
-    "mapName": "Экрон",
-    "mapId": "EHkron",
-    "kit": "Classic",
+    "server": "DUELS_6",
+    "start": 1559601297,
+    "mapName": "Невермор",
+    "mapId": "Nevermor",
+    "kit": "UHC",
     "ranked": false,
     "winner": {
-      "team": "first"
+      "player": 4395550
     },
-    "end": 1559035066,
+    "end": 1559601425,
     "players": [
       {
-        "id": 3264298,
-        "kills": 2,
-        "winStrike": 1,
-        "dead": false
+        "id": 2850885,
+        "kills": 0,
+        "winStreak": 0,
+        "dead": true
       },
-      ...
-    ],
-    "teams": [
       {
-        "id": "first",
-        "members": [
-          3264298,
-          2714318
-        ]
-      },
-      ...
+        "id": 4395550,
+        "kills": 1,
+        "winStreak": 1,
+        "dead": false
+      }
     ],
     "events": [
       {
         "type": "kill",
-        "time": 10,
-        "killer": 3264298,
-        "target": 2848000
-      },
-      ...
+        "time": 128,
+        "killer": 4395550,
+        "target": 2850885
+      }
     ]
   }
   ~~~
@@ -57,6 +51,7 @@ right_code: |
 Есть и общие для всех игр поля: `version`, `game`, `server`, `start`, `end`, `mapName` (может быть `null`), `mapId` (может быть `null`).
 
 Объект в поле `winner` может изменяться в зависимости от вида игры, а может быть `null` в случае ничьи:
+
 ```d
 winner: {
   "team": "teamId" // в случае если игра была командной
