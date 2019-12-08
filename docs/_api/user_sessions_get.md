@@ -2,7 +2,7 @@
 title: /user/session/:ids
 position: 1.9
 type: get
-description: Массовое получение статуса
+description: Массовое получение статуса (до 50)
 right_code: |
   ~~~ json
   [
