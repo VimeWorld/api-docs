@@ -64,5 +64,5 @@ var vime_epoch = 1546300800; // 01.01.2019 в unix timestamp
 var timestamp  = 1559088000; // 29.05.2019 в unix timestamp
 var id  = ((timestamp - vime_epoch) * 1000) << 22 // 1000 - делаем миллисекунды из секунд
         = 53633404108800000;
-var url = "https://api.vime.world/match/list?count=1&after=" + id;
+var url = "https://api.vimeworld.ru/match/list?count=1&after=" + id;
 ```

@@ -1,4 +1,4 @@
-var API_DOMAIN = "https://api.vime.world";
+var API_DOMAIN = "https://api.vimeworld.ru";
 
 jQuery(function() {
 	var $sidebar = $('#sidebar'),
