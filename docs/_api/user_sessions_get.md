@@ -7,15 +7,13 @@ right_code: |
   ~~~ json
   [
     {
-      "user": {
-        "id": 134568,
-        "username": "xtrafrancyz",
-        "level": 5,
-        "levelPercentage": 0.894,
-        "rank": "ADMIN",
-        "playedSeconds": 3106732,
-        "guild": null
-      },
+      "id": 134568,
+      "username": "xtrafrancyz",
+      "level": 5,
+      "levelPercentage": 0.894,
+      "rank": "ADMIN",
+      "playedSeconds": 3106732,
+      "guild": null,
       "online": {
         "value": true,
         "message": "Находится в Лобби",
@@ -29,15 +27,13 @@ right_code: |
   ~~~ json
   [
     {
-      "user": {
-        "id": 134568,
-        "username": "xtrafrancyz",
-        "level": 5,
-        "levelPercentage": 0.894,
-        "rank": "ADMIN",
-        "playedSeconds": 3106732,
-        "guild": null
-      },
+      "id": 134568,
+      "username": "xtrafrancyz",
+      "level": 5,
+      "levelPercentage": 0.894,
+      "rank": "ADMIN",
+      "playedSeconds": 3106732,
+      "guild": null,
       "online": {
         "value": true,
         "message": "Находится в Лобби",
