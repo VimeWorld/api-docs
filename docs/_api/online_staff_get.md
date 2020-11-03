@@ -21,8 +21,7 @@ right_code: |
       },
       "online": {
         "value": true,
-        "message": "Играет в SkyWars Solo",
-        "game": "SW"
+        "message": "Онлайн"
       }
     },
     {
@@ -40,8 +39,7 @@ right_code: |
       },
       "online": {
         "value": true,
-        "message": "Находится в Лобби",
-        "game": "LOBBY"
+        "message": "Онлайн"
       }
     }
   ]
