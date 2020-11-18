@@ -24,10 +24,13 @@ right_code: |
         "rank": "BUILDER",
         "playedSeconds": 5508358,
         "guild": {
-          "id": 1,
-          "name": "Fantastic Five",
-          "tag": null,
-          "color": "&f"
+          "id": 3741,
+          "name": "Build",
+          "tag": "Build",
+          "color": "&2",
+          "level": 33,
+          "levelPercentage": 0.588781,
+          "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/3741.png"
         }
       },
       {

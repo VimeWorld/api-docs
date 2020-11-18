@@ -22,10 +22,13 @@ right_code: |
         "rank": "IMMORTAL",
         "playedSeconds": 9501091,
         "guild": {
-          "id": 87,
-          "name": "E.S.C",
-          "tag": null,
-          "color": "&f"
+          "id": 455,
+          "name": "IcE",
+          "tag": "-IcE-",
+          "color": "&b",
+          "level": 82,
+          "levelPercentage": 0.556216,
+          "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/455.jpg"
         }
       },
       {
@@ -65,7 +68,10 @@ right_code: |
             "id": 107,
             "name": "Revenge",
             "tag": null,
-            "color": "&f"
+            "color": "&f",
+            "level": 99,
+            "levelPercentage": 0.623283,
+            "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/107.png"
           }
         },
         "wins": 10186,
@@ -84,8 +90,11 @@ right_code: |
           "guild": {
             "id": 1,
             "name": "Fantastic Five",
-            "tag": null,
-            "color": "&f"
+            "tag": "-F5-",
+            "color": "&6",
+            "level": 55,
+            "levelPercentage": 0.851215,
+            "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/1.jpg?t=1601541785"
           }
         },
         "wins": 9758,
