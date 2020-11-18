@@ -15,9 +15,12 @@ right_code: |
       "playedSeconds": 3023813,
       "guild": {
         "id": 401,
-        "name": "Okssi наш друг",
+        "name": "Кек дела - хорошо",
         "tag": null,
-        "color": "&f"
+        "color": "&f",
+        "level": 1,
+        "levelPercentage": 0.38236,
+        "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/401.png?t=1598021991"
       }
     }
   ]
@@ -35,9 +38,12 @@ right_code: |
       "playedSeconds": 3023813,
       "guild": {
         "id": 401,
-        "name": "Okssi наш друг",
+        "name": "Кек дела - хорошо",
         "tag": null,
-        "color": "&f"
+        "color": "&f",
+        "level": 1,
+        "levelPercentage": 0.38236,
+        "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/401.png?t=1598021991"
       }
     },
     {
