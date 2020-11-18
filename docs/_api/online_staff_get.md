@@ -14,10 +14,13 @@ right_code: |
       "rank": "MODER",
       "playedSeconds": 5950354,
       "guild": {
-        "id": 124,
+        "id": 927,
         "name": "TheRebellAlliance",
-        "tag": null,
-        "color": "&f"
+        "tag": "-TRA-",
+        "color": "&b",
+        "level": 71,
+        "levelPercentage": 0.376709,
+        "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/927.png"
       },
       "online": {
         "value": true,
@@ -34,8 +37,11 @@ right_code: |
       "guild": {
         "id": 104,
         "name": "VimeTop",
-        "tag": null,
-        "color": "&f"
+        "tag": "VTop",
+        "color": "&a",
+        "level": 24,
+        "levelPercentage": 0.015529,
+        "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/104.jpg"
       },
       "online": {
         "value": true,
