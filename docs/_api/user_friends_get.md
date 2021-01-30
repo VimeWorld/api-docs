@@ -13,6 +13,7 @@ right_code: |
       "levelPercentage": 0.894,
       "rank": "ADMIN",
       "playedSeconds": 3106732,
+      "lastSeen": 1611848249,
       "guild": null
     },
     "friends": [
@@ -23,6 +24,7 @@ right_code: |
         "levelPercentage": 0.856,
         "rank": "BUILDER",
         "playedSeconds": 5508358,
+        "lastSeen": 1611872822,
         "guild": {
           "id": 3741,
           "name": "Build",
@@ -40,6 +42,7 @@ right_code: |
         "levelPercentage": 0.168,
         "rank": "CHIEF",
         "playedSeconds": 2596550,
+        "lastSeen": 1611997655,
         "guild": null
       },
       {
@@ -47,8 +50,9 @@ right_code: |
         "username": "SmaIK",
         "level": 3,
         "levelPercentage": 0.278,
-        "rank": "ADMIN",
+        "rank": "HOLY",
         "playedSeconds": 1300227,
+        "lastSeen": 1608173172,
         "guild": null
       }
     ]

@@ -8,12 +8,22 @@ right_code: |
   {
     "id": 1,
     "name": "Fantastic Five",
-    "tag": null,
-    "color": "&f",
+    "tag": "-F5-",
+    "color": "&6",
+    "level": 61,
+    "levelPercentage": 0.841909,
+    "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/1.jpg",
+    "totalExp": 21247241,
+    "totalCoins": 93844796,
     "created": 1508631234,
-    "totalCoins": 55000,
-    "level": 1,
-    "levelPercentage": 0.81264,
+    "web_info": null,
+    "perks": {
+      "MEMBERS": {
+        "name": "Количество членов гильдии",
+        "level": 16
+      },
+      ...
+    }
     "members": [
       {
         "user": {
@@ -22,7 +32,8 @@ right_code: |
           "level": 55,
           "levelPercentage": 0.72247,
           "rank": "WARDEN",
-          "playedSeconds": 8172366
+          "playedSeconds": 8172366,
+          "lastSeen": 1611768354
         },
         "status": "LEADER",
         "joined": 1508631234,

@@ -13,6 +13,7 @@ right_code: |
       "levelPercentage": 0.894,
       "rank": "ADMIN",
       "playedSeconds": 3023813,
+      "lastSeen": 1611848249,
       "guild": {
         "id": 401,
         "name": "Кек дела - хорошо",
@@ -36,6 +37,7 @@ right_code: |
       "levelPercentage": 0.894,
       "rank": "ADMIN",
       "playedSeconds": 3023813,
+      "lastSeen": 1611848249,
       "guild": {
         "id": 401,
         "name": "Кек дела - хорошо",
@@ -53,6 +55,7 @@ right_code: |
       "levelPercentage": 0,
       "rank": "PLAYER",
       "playedSeconds": 0,
+      "lastSeen": 1595803008,
       "guild": null
     }
   ]

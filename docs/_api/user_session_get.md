@@ -13,6 +13,7 @@ right_code: |
       "levelPercentage": 0.894,
       "rank": "ADMIN",
       "playedSeconds": 3106732,
+      "lastSeen": 1611848249,
       "guild": null
     },
     "online": {
@@ -27,12 +28,33 @@ right_code: |
   ~~~ json
   {
     "user": {
+      "id": 64638,
+      "username": "Kynth",
+      "level": 56,
+      "levelPercentage": 0.76395,
+      "rank": "MODER",
+      "playedSeconds": 6735290,
+      "lastSeen": 1612021654,
+      "guild": null
+    },
+    "online": {
+      "value": true,
+      "message": "Онлайн"
+    }
+  }
+  ~~~
+  {: title="Модер онлайн" url="/user/64638/session" }
+
+  ~~~ json
+  {
+    "user": {
       "id": 134568,
       "username": "xtrafrancyz",
       "level": 5,
       "levelPercentage": 0.894,
       "rank": "ADMIN",
       "playedSeconds": 3106732,
+      "lastSeen": 1611848249,
       "guild": null
     },
     "online": {

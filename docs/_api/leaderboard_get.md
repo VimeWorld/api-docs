@@ -21,6 +21,7 @@ right_code: |
         "levelPercentage": 0.25811,
         "rank": "IMMORTAL",
         "playedSeconds": 9501091,
+        "lastSeen": 1580449829,
         "guild": {
           "id": 455,
           "name": "IcE",
@@ -38,6 +39,7 @@ right_code: |
         "levelPercentage": 0.33993,
         "rank": "IMMORTAL",
         "playedSeconds": 9199587,
+        "lastSeen": -1,
         "guild": null
       },
       ...
@@ -64,6 +66,7 @@ right_code: |
           "levelPercentage": 0.71594,
           "rank": "HOLY",
           "playedSeconds": 7897811,
+          "lastSeen": 1612038489,
           "guild": {
             "id": 107,
             "name": "Revenge",
@@ -87,6 +90,7 @@ right_code: |
           "levelPercentage": 0.26511,
           "rank": "WARDEN",
           "playedSeconds": 9308811,
+          "lastSeen": 1611804503,
           "guild": {
             "id": 1,
             "name": "Fantastic Five",
@@ -125,6 +129,8 @@ right_code: |
           "level": 8,
           "levelPercentage": 0.342,
           "rank": "PLAYER",
+          "playedSeconds": 15491784,
+          "lastSeen": 1612038489,
           "guild": null
         },
         "wins": 6045,
@@ -139,6 +145,8 @@ right_code: |
           "level": 14,
           "levelPercentage": 0.042,
           "rank": "WARDEN",
+          "playedSeconds": 14259150,
+          "lastSeen": 1611804503,
           "guild": null
         },
         "wins": 5853,

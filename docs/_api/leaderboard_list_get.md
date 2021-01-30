@@ -8,22 +8,24 @@ right_code: |
   [
     {
       "type": "bb",
-      "description": "Top players on BuildBattle",
+      "description": "Топ игроков на BuildBattle",
+      "max_size": 1000,
       "sort": [
         "wins"
       ]
     },
     {
-      "type": "sw",
-      "description": "Top players on SkyWars",
+      "type": "bp_monthly",
+      "description": "Топ игроков на BlockParty (в этом месяце)",
+      "max_size": 1000,
       "sort": [
-        "wins",
-        "kills"
+        "wins"
       ]
     },
     {
       "type": "user",
-      "description": "Top players",
+      "description": "Общий топ игроков",
+      "max_size": 1000,
       "sort": [
         "level",
         "online"
@@ -43,6 +45,9 @@ type
 
 description
 : Краткое описание таблицы рекордов.
+
+max_size
+: Максимальное количество записей, которые вернет сервер.
 
 sort
 : Список доступных вариантов таблицы рекордов.
