@@ -13,6 +13,7 @@ right_code: |
       "levelPercentage": 0.894,
       "rank": "ADMIN",
       "playedSeconds": 3106732,
+      "lastSeen": 1611848249,
       "guild": null
     },
     "online": {
@@ -33,6 +34,7 @@ right_code: |
       "levelPercentage": 0.894,
       "rank": "ADMIN",
       "playedSeconds": 3106732,
+      "lastSeen": 1611848249,
       "guild": null
     },
     "online": {
