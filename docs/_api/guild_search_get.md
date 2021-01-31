@@ -21,7 +21,7 @@ right_code: |
       "tag": null,
       "color": "&f",
       "level": 2,
-      "levelPercentage": 0.62691
+      "levelPercentage": 0.62691,
       "avatar_url": null
     }
   ]
