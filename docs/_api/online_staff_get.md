@@ -13,6 +13,7 @@ right_code: |
       "levelPercentage": 0.37101,
       "rank": "MODER",
       "playedSeconds": 5950354,
+      "lastSeen": 1611737241,
       "guild": {
         "id": 927,
         "name": "TheRebellAlliance",
@@ -34,6 +35,7 @@ right_code: |
       "levelPercentage": 0.17737,
       "rank": "WARDEN",
       "playedSeconds": 2705011,
+      "lastSeen": 1610475375,
       "guild": {
         "id": 104,
         "name": "VimeTop",

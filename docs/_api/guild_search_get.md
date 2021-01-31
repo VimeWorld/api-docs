@@ -12,7 +12,8 @@ right_code: |
       "tag": "F5",
       "color": "&6",
       "level": 30,
-      "levelPercentage": 0.66278
+      "levelPercentage": 0.66278,
+      "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/1.jpg"
     },
     {
       "id": 2495,
@@ -20,7 +21,8 @@ right_code: |
       "tag": null,
       "color": "&f",
       "level": 2,
-      "levelPercentage": 0.62691
+      "levelPercentage": 0.62691,
+      "avatar_url": null
     }
   ]
   ~~~
