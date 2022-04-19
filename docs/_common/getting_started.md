@@ -3,10 +3,11 @@ title: Введение
 position: 1
 ---
 
-Добро пожаловать в публичный API VimeWorld.ru
+Добро пожаловать в публичный API VimeWorld
 
 Чтобы воспользоваться API, нужно делать запросы по одному из адресов:
-- [https://api.vimeworld.ru/](https://api.vimeworld.ru/){:target="_blank"}
+- [https://api.vimeworld.com/](https://api.vimeworld.com/){:target="_blank"}
+- [https://api.vimeworld.ru/](https://api.vimeworld.ru/){:target="_blank"} (старый, рабочий)
 - [https://api.vime.world/](https://api.vime.world/){:target="_blank"} (старый, рабочий, иногда попадает в бан Роскомнадзора)
 
 В конец адреса нужно добавить имя метода с данными (если есть). Список методов размещен ниже. При вызове методов могут возникать ошибки, с ними можно ознакомиться в разделе [Ошибки](#commonerrors).

@@ -21,7 +21,7 @@ right_code: |
         "color": "&b",
         "level": 71,
         "levelPercentage": 0.376709,
-        "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/927.png"
+        "avatar_url": "https://mc.vimeworld.com/launcher/guilds/927.png"
       },
       "online": {
         "value": true,
@@ -43,7 +43,7 @@ right_code: |
         "color": "&a",
         "level": 24,
         "levelPercentage": 0.015529,
-        "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/104.jpg"
+        "avatar_url": "https://mc.vimeworld.com/launcher/guilds/104.jpg"
       },
       "online": {
         "value": true,

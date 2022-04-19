@@ -12,7 +12,7 @@ right_code: |
     "color": "&6",
     "level": 61,
     "levelPercentage": 0.841909,
-    "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/1.jpg",
+    "avatar_url": "https://mc.vimeworld.com/launcher/guilds/1.jpg",
     "totalExp": 21247241,
     "totalCoins": 93844796,
     "created": 1508631234,

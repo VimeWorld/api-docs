@@ -1,6 +1,6 @@
-VimeWorld.ru Public API
+VimeWorld Public API
 =======================
 
 Документация: https://vimeworld.github.io/api-docs/
 
-API: https://api.vime.world/
+API: https://api.vimeworld.com/

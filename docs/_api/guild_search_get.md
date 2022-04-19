@@ -13,7 +13,7 @@ right_code: |
       "color": "&6",
       "level": 30,
       "levelPercentage": 0.66278,
-      "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/1.jpg"
+      "avatar_url": "https://mc.vimeworld.com/launcher/guilds/1.jpg"
     },
     {
       "id": 2495,

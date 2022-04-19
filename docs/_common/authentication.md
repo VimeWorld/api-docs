@@ -3,7 +3,7 @@ title: Авторизация
 position: 2
 right_code: |
   ~~~ php?start_inline=true
-  $curl = curl_init("https://api.vimeworld.ru/online");
+  $curl = curl_init("https://api.vimeworld.com/online");
   curl_setopt($curl, CURLOPT_CONNECTTIMEOUT, 4);
   curl_setopt($curl, CURLOPT_HTTPHEADER, array(
     'Access-Token: MY_TOKEN'
@@ -21,7 +21,7 @@ right_code: |
 Для получения токена разработчика, необходимо зайти на сервер MiniGames и написать команду `/api dev`. Вам будет выдана ссылка на страницу, где будет написан ваш токен и информация о нем.
 Чтобы выполнять запросы с токеном, необходимо добавить его в параметры запроса, например:
 ```
-https://api.vimeworld.ru/online?token=MY_TOKEN
+https://api.vimeworld.com/online?token=MY_TOKEN
 ```
 Либо добавить в запрос заголовок Access-Token:
 ```d

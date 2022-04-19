@@ -7,7 +7,7 @@ right_code: |
   ~~~ json
   [
     {
-      "title": "Стрим на VimeWorld.ru",
+      "title": "Стрим на VimeWorld",
       "owner": "Okssi",
       "viewers": 95,
       "url": "https://youtu.be/dQw4w9WgXcQ",

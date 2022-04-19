@@ -32,7 +32,7 @@ right_code: |
           "color": "&2",
           "level": 33,
           "levelPercentage": 0.588781,
-          "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/3741.png"
+          "avatar_url": "https://mc.vimeworld.com/launcher/guilds/3741.png"
         }
       },
       {

@@ -29,7 +29,7 @@ right_code: |
           "color": "&b",
           "level": 82,
           "levelPercentage": 0.556216,
-          "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/455.jpg"
+          "avatar_url": "https://mc.vimeworld.com/launcher/guilds/455.jpg"
         }
       },
       {
@@ -74,7 +74,7 @@ right_code: |
             "color": "&f",
             "level": 99,
             "levelPercentage": 0.623283,
-            "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/107.png"
+            "avatar_url": "https://mc.vimeworld.com/launcher/guilds/107.png"
           }
         },
         "wins": 10186,
@@ -98,7 +98,7 @@ right_code: |
             "color": "&6",
             "level": 55,
             "levelPercentage": 0.851215,
-            "avatar_url": "https://mc.vimeworld.ru/launcher/guilds/1.jpg?t=1601541785"
+            "avatar_url": "https://mc.vimeworld.com/launcher/guilds/1.jpg?t=1601541785"
           }
         },
         "wins": 9758,
