@@ -66,4 +66,4 @@ duration
 : Длительность стрима в секундах (время с начала стрима).
 
 platform
-: Платформа, на которой идет стрим. Поддерживается [YouTube](https://youtube.com), [ВКонтакте](https://vk.com), [Twitch](https://twitch.tv), [GoodGame](https://goodgame.ru).
+: Платформа, на которой идет стрим. Поддерживаются [YouTube](https://youtube.com), [ВКонтакте](https://vk.com), [Twitch](https://twitch.tv), [GoodGame](https://goodgame.ru).
